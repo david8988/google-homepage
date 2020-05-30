@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>google page</title>
+    </head>
+    <body>
+        
+        <header >
+            <div class="row">
+                <div class="links">Gmail</div>
+                <div class="links">Imágenes</div>
+                <div class="links" id="appsMenu"> <img id="appsMenuLogo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSRW2IN_EK7arnnOWVua02m1tuQzyahZhBdDCSmef1gO1vBujl7&usqp=CAU"></div>
+                <div class="links"><button id="signInButton">Iniciar sesión</button></div>
+            </div>    
+        </header>
+        <div>
+        <div class="searchMenu">
+            <img  src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" > 
+            <input>
+        </div>
+        </div>
+        <footer>menu inferior</footer>
+    </body>
+</html>
+
+<style>
+    body{
+        display:flex;
+        flex-direction: column;
+    }
+
+   header{
+       
+       height:30px;
+       position:relative;
+       
+   }
+   .row{
+       height:100%;
+       position:absolute;
+       display:flex;
+       right:0px;
+       
+       
+   }
+
+   .links{
+       margin-left:5px;
+       margin-right:10px;
+   }
+
+
+   #appsMenu{
+       height: 100%;
+       
+   }
+
+   #appsMenuLogo{
+    
+    max-height:100%;
+    width:auto;
+   }
+
+   #signInButton{
+    background-color: #1e90ff;
+    color:white;
+    border:none;
+    border-radius:1px;
+    padding: 6px 20px;
+   }
+
+   .searchMenu{
+      display:flex;
+      flex-direction:column;
+   }
+
+   footer{
+       background-color: green;
+   }
+
+
+</style>
