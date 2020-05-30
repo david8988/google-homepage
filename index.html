@@ -23,15 +23,19 @@
             </div>
         </div>
         <footer>
-            <div>Perú</div>
-            <div>
-                <div>
-                    <span>Publicidad</span>    
-                    <span>Negocios</span>  
-                    <span>Sobre Google</span>   
-                    <span>Como funciona la Busqueda</span>    
-                </div>
-                <div></div>
+           <div class="adiv"><div class="bottomMenu1">Perú</div></div> 
+            <div class="bottomMenu1">
+                <span>
+                    <span class="link2"><a class="languageLink" href="" style="text-decoration: none ; color:black;">Publicidad</a></span>    
+                    <span class="link2"><a class="languageLink" href="" style="text-decoration: none;color:black;">Negocios</a></span>  
+                    <span class="link2"><a class="languageLink" href="" style="text-decoration: none;color:black;">Sobre Google</a></span>   
+                    <span class="link2"><a class="languageLink" href="" style="text-decoration: none;color:black;">Como funciona la Busqueda</a></span>    
+                </span>
+                <span class="bottomMenuRight">
+                    <span class="link2"><a class="languageLink" href="" style="text-decoration: none;color:black;">Privacidad</a></span>    
+                    <span class="link2"><a class="languageLink" href="" style="text-decoration: none;color:black;">Condiciones</a></span>  
+                    <span class="link2"><a class="languageLink"  href="" style="text-decoration: none;color:black;">Preferencias</a></span>  
+                </span>
             </div>
         </footer>
     </body>
@@ -160,15 +164,38 @@
    }
 
    footer{
-       background-color: green;
+       background-color: lightgray;
        position: fixed;
        bottom:0px;
        width:100%;
        display:flex;
         flex-direction: column;
-        font-size:20px;
+        font-size:15px;
+        border:solid;
 
    }
 
+   .bottomMenuRight{
+       float:right;
+   }
+
+   .adiv{
+       background-color: lightgray;
+       border:none;
+       border-bottom:solid;
+   }
+
+   .bottomMenu1{
+       margin-left:25px;
+       margin-top:10px;
+       margin-bottom:10px;
+       margin-right:15px;
+       background-color:lightgray;
+   }
+
+   .link2{
+       margin-left:5px;
+       margin-right:5px;
+   }
 
 </style>
